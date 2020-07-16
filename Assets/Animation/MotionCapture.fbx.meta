@@ -21,9 +21,15 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Covid-pulse-temp_007' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ruby_Spine1' has translation
+      animation that will be discarded.\n\t'Ruby_LeftHand' has translation animation
+      that will be discarded.\n\t'Ruby_RightHand' has translation animation that
+      will be discarded.\n\t'Ruby_LeftFoot' has translation animation that will be
+      discarded.\n\t'Ruby_RightFoot' has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
+    animationDoRetargetingWarnings: 1
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 3
@@ -74,8 +80,676 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: Ruby_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ruby_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: MotionCapture(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_Hips
+      parentName: MotionCapture(Clone)
+      position: {x: 0, y: 0.75605226, z: 0.10799164}
+      rotation: {x: -0.094095, y: -0.05720362, z: -0.020715239, w: 0.9937026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_Spine
+      parentName: Ruby_Hips
+      position: {x: -0, y: 0.0693832, z: 0}
+      rotation: {x: -0.051421795, y: 0.0047512255, z: 0.032303505, w: 0.99814314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_Spine1
+      parentName: Ruby_Spine
+      position: {x: -0.000000011175871, y: 0.19185013, z: 0}
+      rotation: {x: 0.12975122, y: 0.0015479856, z: -0.004111622, w: 0.99153686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_Neck
+      parentName: Ruby_Spine1
+      position: {x: -0, y: 0.205878, z: 0}
+      rotation: {x: 0.03971185, y: 0.0008111596, z: -0.020424519, w: 0.9990021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_Head
+      parentName: Ruby_Neck
+      position: {x: -0, y: 0.131151, z: 0.0169227}
+      rotation: {x: 0.056607332, y: -0.0032213563, z: 0.010322035, w: 0.998338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftShoulder
+      parentName: Ruby_Spine1
+      position: {x: -0.0342507, y: 0.178201, z: -0.000960536}
+      rotation: {x: -0.043945383, y: -0.055088297, z: -0.11437055, w: 0.9909357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftArm
+      parentName: Ruby_LeftShoulder
+      position: {x: -0.083339095, y: 0, z: 0}
+      rotation: {x: -0.0106377145, y: 0.06258067, z: 0.10548092, w: 0.99239326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftForeArm
+      parentName: Ruby_LeftArm
+      position: {x: -0.24209899, y: 0, z: 0}
+      rotation: {x: -0.00072832446, y: 0.0074252854, z: 0.018734884, w: 0.9997966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHand
+      parentName: Ruby_LeftForeArm
+      position: {x: -0.20358407, y: -0.00023281574, z: -0.0012840629}
+      rotation: {x: 0.01959468, y: -0.04266631, z: -0.0846987, w: 0.9952998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandThumb1
+      parentName: Ruby_LeftHand
+      position: {x: -0.012692099, y: -0.0211534, z: 0.0423068}
+      rotation: {x: -0.038243525, y: 0.38479474, z: 0.006450276, w: 0.92218703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandThumb2
+      parentName: Ruby_LeftHandThumb1
+      position: {x: -0.025384098, y: 0, z: 0}
+      rotation: {x: 0, y: -0.00050354376, z: -0, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandThumb3
+      parentName: Ruby_LeftHandThumb2
+      position: {x: -0.025384098, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0010070875, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandIndex1
+      parentName: Ruby_LeftHand
+      position: {x: -0.0761523, y: 0, z: 0.0296148}
+      rotation: {x: 0, y: 0, z: 0.019399581, w: 0.9998118}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandIndex2
+      parentName: Ruby_LeftHandIndex1
+      position: {x: -0.0423068, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.03879186, w: 0.9992473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandIndex3
+      parentName: Ruby_LeftHandIndex2
+      position: {x: -0.0211534, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.019399581, w: 0.9998118}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandMiddle1
+      parentName: Ruby_LeftHand
+      position: {x: -0.0761523, y: 0, z: 0.00981519}
+      rotation: {x: -0.000106914944, y: -0.020841418, z: 0.014693257, w: 0.99967486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandMiddle2
+      parentName: Ruby_LeftHandMiddle1
+      position: {x: -0.0465375, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.029378563, w: 0.9995684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandMiddle3
+      parentName: Ruby_LeftHandMiddle2
+      position: {x: -0.025384098, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.014690868, w: 0.9998921}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandRing1
+      parentName: Ruby_LeftHand
+      position: {x: -0.0719216, y: 0, z: -0.00981519}
+      rotation: {x: -0.00036088747, y: -0.01752117, z: 0.007718849, w: 0.99981666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandRing2
+      parentName: Ruby_LeftHandRing1
+      position: {x: -0.0423068, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.01996266, w: 0.99980074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandRing3
+      parentName: Ruby_LeftHandRing2
+      position: {x: -0.0211534, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.009981827, w: 0.9999502}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandPinky1
+      parentName: Ruby_LeftHand
+      position: {x: -0.0676909, y: 0, z: -0.0296148}
+      rotation: {x: -0.00044550363, y: -0.016763538, z: 0.003273424, w: 0.999854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandPinky2
+      parentName: Ruby_LeftHandPinky1
+      position: {x: -0.0338455, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.010259583, w: 0.99994737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftHandPinky3
+      parentName: Ruby_LeftHandPinky2
+      position: {x: -0.0169227, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.005129859, w: 0.9999868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightShoulder
+      parentName: Ruby_Spine1
+      position: {x: 0.033271696, y: 0.178201, z: -0.000960536}
+      rotation: {x: -0.061982706, y: -0.046469443, z: 0.03820227, w: 0.9962627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightArm
+      parentName: Ruby_RightShoulder
+      position: {x: 0.083339095, y: 0, z: 0}
+      rotation: {x: 0.032662008, y: -0.0026889846, z: -0.06684009, w: 0.99722534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightForeArm
+      parentName: Ruby_RightArm
+      position: {x: 0.24209899, y: 0, z: 0}
+      rotation: {x: 0.021136677, y: 0.008962097, z: -0.005135016, w: 0.99972326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHand
+      parentName: Ruby_RightForeArm
+      position: {x: 0.19749059, y: -0.0012084246, z: -0.00015309453}
+      rotation: {x: 0.007381277, y: 0.1314966, z: 0.007976169, w: 0.9912571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandThumb1
+      parentName: Ruby_RightHand
+      position: {x: 0.012692099, y: -0.0211534, z: 0.0423068}
+      rotation: {x: -0.012058369, y: -0.38339227, z: 0.042870484, w: 0.9225113}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandThumb2
+      parentName: Ruby_RightHandThumb1
+      position: {x: 0.025384098, y: 0, z: 0}
+      rotation: {x: 0, y: 0.040650684, z: -0, w: 0.99917346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandThumb3
+      parentName: Ruby_RightHandThumb2
+      position: {x: 0.025384098, y: 0, z: 0}
+      rotation: {x: 0, y: 0.081234165, z: -0, w: 0.99669504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandIndex1
+      parentName: Ruby_RightHand
+      position: {x: 0.0761523, y: 0, z: 0.0296148}
+      rotation: {x: 0.000336551, y: -0.0052816253, z: 0.058387253, w: 0.99828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandIndex2
+      parentName: Ruby_RightHandIndex1
+      position: {x: 0.0423068, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandIndex3
+      parentName: Ruby_RightHandIndex2
+      position: {x: 0.0211534, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandMiddle1
+      parentName: Ruby_RightHand
+      position: {x: 0.0761523, y: 0, z: 0.00981519}
+      rotation: {x: 0.000005687047, y: 0.006014511, z: 0.042934213, w: 0.9990598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandMiddle2
+      parentName: Ruby_RightHandMiddle1
+      position: {x: 0.0465375, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandMiddle3
+      parentName: Ruby_RightHandMiddle2
+      position: {x: 0.025384098, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandRing1
+      parentName: Ruby_RightHand
+      position: {x: 0.0719216, y: 0, z: -0.00981519}
+      rotation: {x: 0.000011371463, y: 0.012026229, z: 0.022258423, w: 0.9996799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandRing2
+      parentName: Ruby_RightHandRing1
+      position: {x: 0.0423068, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandRing3
+      parentName: Ruby_RightHandRing2
+      position: {x: 0.0211534, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandPinky1
+      parentName: Ruby_RightHand
+      position: {x: 0.0676909, y: 0, z: -0.0296148}
+      rotation: {x: 0.000017222548, y: 0.01821426, z: 0.0009453958, w: 0.9998337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandPinky2
+      parentName: Ruby_RightHandPinky1
+      position: {x: 0.0338455, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightHandPinky3
+      parentName: Ruby_RightHandPinky2
+      position: {x: 0.0169227, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftUpLeg
+      parentName: Ruby_Hips
+      position: {x: -0.0846137, y: 0, z: 0}
+      rotation: {x: 0.07456153, y: -0.001141014, z: 0.06039046, w: 0.9953855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftLeg
+      parentName: Ruby_LeftUpLeg
+      position: {x: -0, y: -0.341581, z: 0}
+      rotation: {x: 0.18181904, y: 0.24337505, z: -0.01288529, w: 0.9526512}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftFoot
+      parentName: Ruby_LeftLeg
+      position: {x: 0.0014235117, y: -0.31946477, z: 0.00027263165}
+      rotation: {x: -0.13981439, y: -0.16372259, z: -0.03857473, w: 0.97578627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_LeftToeBase
+      parentName: Ruby_LeftFoot
+      position: {x: -0, y: -0.054998897, z: 0.126921}
+      rotation: {x: 0.00021972507, y: 0.00051889574, z: -0.0000410825, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightUpLeg
+      parentName: Ruby_Hips
+      position: {x: 0.0846137, y: 0, z: 0}
+      rotation: {x: 0.10407903, y: 0.09097244, z: 0.065675065, w: 0.9882198}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightLeg
+      parentName: Ruby_RightUpLeg
+      position: {x: -0, y: -0.341581, z: 0}
+      rotation: {x: 0.13119513, y: -0.054429255, z: -0.043492142, w: 0.9889054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightFoot
+      parentName: Ruby_RightLeg
+      position: {x: -0.00056477636, y: -0.31115675, z: -0.0020362884}
+      rotation: {x: -0.13420369, y: 0.0056487205, z: -0.012577901, w: 0.99085784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruby_RightToeBase
+      parentName: Ruby_RightFoot
+      position: {x: -0, y: -0.054998897, z: 0.126921}
+      rotation: {x: 0.0016210675, y: -0.014905512, z: 0.0026919993, w: 0.999884}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5

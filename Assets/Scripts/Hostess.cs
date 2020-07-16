@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Hostess : MonoBehaviour
 {
@@ -14,6 +15,13 @@ public class Hostess : MonoBehaviour
     [SerializeField]
     AudioClip[] clips;
 
+
+    string[] results = new string[]
+    {
+        "I'm glad you are feeling well. Why are you here then?",
+        "Take 2 aspirin and see me in the morning.",
+        "Let's get you to the ICU right away!"
+    };
 
     private void Start()
     {
@@ -32,8 +40,10 @@ public class Hostess : MonoBehaviour
         audioSource.Play();
     }
 
-    public void ContinueTalking()
+    public void ContinueTalking(Text text, int number)
     {
+        text.text = results[number];
+
         audioSource.clip = clips[1];
         audioSource.Play();
     }

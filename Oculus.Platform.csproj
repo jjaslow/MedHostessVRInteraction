@@ -440,6 +440,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Filebase">
+      <HintPath>C:/Users/jason/OneDrive/DeveloperRoadmap/VR_AR/Unity Projects/Praxis/Assets/GameDevHQ/FileBase/Plugin/Filebase.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/jason/OneDrive/DeveloperRoadmap/VR_AR/Unity Projects/Praxis/Assets/GameDevHQ/FileBase/Plugin/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
     </Reference>

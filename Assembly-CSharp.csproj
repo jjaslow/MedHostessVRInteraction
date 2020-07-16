@@ -225,7 +225,6 @@
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\PhysicsPointer.cs" />
     <Compile Include="Assets\Scripts\PointerEvents.cs" />
-    <Compile Include="Assets\Scripts\UI.cs" />
     <Compile Include="Assets\Scripts\VRInput.cs" />
     <Compile Include="Assets\_SimplePointer\Scripts\Pointers\CanvasPointer.cs" />
     <Compile Include="Assets\_SimplePointer\Scripts\Pointers\Pointer.cs" />
@@ -242,6 +241,7 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
+    <None Include="Assets\GameDevHQ\FileBase\Plugin\README.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
@@ -515,6 +515,12 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Filebase">
+      <HintPath>C:/Users/jason/OneDrive/DeveloperRoadmap/VR_AR/Unity Projects/Praxis/Assets/GameDevHQ/FileBase/Plugin/Filebase.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/jason/OneDrive/DeveloperRoadmap/VR_AR/Unity Projects/Praxis/Assets/GameDevHQ/FileBase/Plugin/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

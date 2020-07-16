@@ -22,10 +22,6 @@ public class PointerEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     bool isHovering = false;
 
-    private void Start()
-    {
-        hostess = GameObject.Find("HostessGO").GetComponent<Hostess>();
-    }
 
     private void Update()
     {
@@ -96,8 +92,8 @@ public class PointerEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void PressedFaceButton(int number)
     {
-        text.text = "you pressed: " + number.ToString();
-        hostess.ContinueTalking();
+        hostess = GameObject.Find("HostessGO").GetComponent<Hostess>();
+        hostess.ContinueTalking(text, number);
     }
 
     //void IInteractable.OnClick()
