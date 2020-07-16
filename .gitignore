@@ -338,3 +338,11 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Assets/Oculus
+/Assets/Resources
+/Assets/TextMesh Pro
+/Assets/XR
+/Assets/_SimplePointer
+/Library
+/ProjectSettings
+/Temp
