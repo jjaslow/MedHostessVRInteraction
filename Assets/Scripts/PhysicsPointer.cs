@@ -7,7 +7,7 @@ public class PhysicsPointer : MonoBehaviour
 
     public float defaultLength = 5f;
     private LineRenderer lineRenderer = null;
-    //bool startedTalking = false;
+    bool startedTalking = false;
 
     private void Awake()
     {
@@ -33,11 +33,12 @@ public class PhysicsPointer : MonoBehaviour
         if(hit.collider)
         {
             endPosition = hit.point;
+            TakeAction(hit);
         }
 
-        IInteractable other = hit.collider.gameObject.GetComponent<IInteractable>();
-        if (other != null)
-            TakeAction(other);
+        //IInteractable other = hit.collider.gameObject.GetComponent<IInteractable>();
+        //if (other != null)
+        //    TakeAction(other);
 
         return endPosition;
     }
@@ -57,13 +58,33 @@ public class PhysicsPointer : MonoBehaviour
     }
 
 
-    private void TakeAction(IInteractable other)
+    private void TakeAction(RaycastHit hit)
     {
-        other.OnHover();
+        if (hit.collider.gameObject.GetComponent<Image>() != null)
+        {
+            hit.collider.gameObject.GetComponent<PointerEvents>().OnHover();
 
-        if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > .5f)
-            other.OnClick();
+            if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > .5f)
+                hit.collider.gameObject.GetComponent<PointerEvents>().OnPointerClick();
+        }
+        else if (!startedTalking && hit.collider.gameObject.GetComponent<Hostess>() != null)
+        {
+            if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > .5f)
+            {
+                startedTalking = true;
+                hit.collider.gameObject.GetComponent<Hostess>().StartTalking();
+            }
+        }
     }
+
+
+    //private void TakeAction(IInteractable other)
+    //{
+    //    other.OnHover();
+
+    //    if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > .5f)
+    //        other.OnClick();
+    //}
 
 }
 

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class PointerEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler, IInteractable
+public class PointerEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
 {
     [SerializeField] private Color normalColor;
     [SerializeField] private Color enterColor;
@@ -15,23 +15,29 @@ public class PointerEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     [SerializeField]
     private Image image;
 
+    [SerializeField]
+    private Text text;
+    [SerializeField]
+    private Hostess hostess;
+
     bool isHovering = false;
 
-    private void Awake()
+    private void Start()
     {
-        image.color = Color.green;
+        hostess = GameObject.Find("HostessGO").GetComponent<Hostess>();
     }
 
     private void Update()
     {
         isHovering = false;
-        image.color = Color.green;
+        if (image != null)
+            image.color = normalColor;
     }
 
     private void LateUpdate()
     {
         if(isHovering)
-            GetComponent<Image>().color = Color.red;
+            GetComponent<Image>().color = enterColor;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -84,12 +90,18 @@ public class PointerEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void OnHover()
     {
-        Debug.Log("pointing at: " + gameObject.name);
+        Debug.Log("Pointer EVENTS pointing at: " + gameObject.name);
         isHovering = true;
     }
 
-    void IInteractable.OnClick()
+    public void PressedFaceButton(int number)
     {
-        gameObject.GetComponent<PointerEvents>().OnPointerClick();
+        text.text = "you pressed: " + number.ToString();
+        hostess.ContinueTalking();
     }
+
+    //void IInteractable.OnClick()
+    //{
+    //    gameObject.GetComponent<PointerEvents>().OnPointerClick();
+    //}
 }

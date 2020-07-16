@@ -3,31 +3,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hostess : MonoBehaviour, IInteractable
+public class Hostess : MonoBehaviour
 {
     [SerializeField]
     GameObject player;
+    [SerializeField]
+    GameObject canvasPanel;
+    [SerializeField]
+    AudioSource audioSource;
+    [SerializeField]
+    AudioClip[] clips;
 
-    bool startedTalking = false;
 
-    public void OnHover()
+    private void Start()
     {
-        Debug.Log("pointing at: " + gameObject.name);
+        canvasPanel.SetActive(false);
     }
-
-    public void OnClick()
-    {
-        if(!startedTalking)
-            StartTalking();
-    }
-
-
 
     public void StartTalking()
     {
         Debug.Log("talking");
-        startedTalking = true;
+        canvasPanel.SetActive(true);
+
         transform.LookAt(player.transform.position);
         transform.localEulerAngles = new Vector3(0, transform.localEulerAngles.y , 0);
+
+        audioSource.clip = clips[0];
+        audioSource.Play();
+    }
+
+    public void ContinueTalking()
+    {
+        audioSource.clip = clips[1];
+        audioSource.Play();
     }
 }

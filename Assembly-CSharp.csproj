@@ -222,9 +222,10 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\Scripts\Hostess.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\PhysicsPointer.cs" />
     <Compile Include="Assets\Scripts\PointerEvents.cs" />
-    <Compile Include="Assets\Scripts\TalkManager.cs" />
+    <Compile Include="Assets\Scripts\UI.cs" />
     <Compile Include="Assets\Scripts\VRInput.cs" />
     <Compile Include="Assets\_SimplePointer\Scripts\Pointers\CanvasPointer.cs" />
     <Compile Include="Assets\_SimplePointer\Scripts\Pointers\Pointer.cs" />
